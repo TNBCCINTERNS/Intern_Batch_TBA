@@ -33,6 +33,3 @@ db.hotel.save({"address": {"building": "469", "coord": [-73.961704, 40.662942], 
 {"date": {"$date": 1367280000000}, "grade": "A", "score": 12}, 
  "name": "Wendy'S", "restaurant_id": "30112340"})
 
-
-
-{"date": {"$date": 1336435200000}, "grade": "A", "score": 12}], "name": "Wendy'S", "restaurant_id": "30112340"})
