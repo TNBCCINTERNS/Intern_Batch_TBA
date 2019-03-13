@@ -1,0 +1,505 @@
+ db.rest.find().pretty()
+{
+        "_id" : ObjectId("5c87e2b27321d51d99233fa4"),
+        "address" : {
+                "building" : "1007",
+                "coord" : [
+                        -73.856077,
+                        40.848447
+                ],
+                "street" : "Morris Park Ave",
+                "zipcode" : "10462"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Bakery",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1393804800000
+                        },
+                        "grade" : "A",
+                        "score" : 2
+                },
+                {
+                        "date" : {
+                                "$date" : 1378857600000
+                        },
+                        "grade" : "A",
+                        "score" : 6
+                },
+                {
+                        "date" : {
+                                "$date" : 1358985600000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1322006400000
+                        },
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : {
+                                "$date" : 1299715200000
+                        },
+                        "grade" : "B",
+                        "score" : 14
+                }
+        ],
+        "name" : "Morris Park Bake Shop",
+        "restaurant_id" : "30075445"
+}
+{
+        "_id" : ObjectId("5c87e30d7321d51d99233fa5"),
+        "address" : {
+                "building" : "7114",
+                "coord" : [
+                        -73.9068506,
+                        40.6199034
+                ],
+                "street" : "Avenue U",
+                "zipcode" : "11234"
+        },
+        "borough" : "Brooklyn",
+        "cuisine" : "Delicatessen",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1401321600000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1389657600000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1375488000000
+                        },
+                        "grade" : "A",
+                        "score" : 8
+                },
+                {
+                        "date" : {
+                                "$date" : 1342569600000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1331251200000
+                        },
+                        "grade" : "A",
+                        "score" : 13
+                },
+                {
+                        "date" : {
+                                "$date" : 1318550400000
+                        },
+                        "grade" : "A",
+                        "score" : 9
+                }
+        ],
+        "name" : "Wilken'S Fine Food",
+        "restaurant_id" : "40356483"
+}
+{
+        "_id" : ObjectId("5c87e3647321d51d99233fa6"),
+        "address" : {
+                "building" : "1269",
+                "coord" : [
+                        -73.871194,
+                        40.6730975
+                ],
+                "street" : "Sutter Avenue",
+                "zipcode" : "11208"
+        },
+        "borough" : "Brooklyn",
+        "cuisine" : "Chinese",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1410825600000
+                        },
+                        "grade" : "B",
+                        "score" : 21
+                },
+                {
+                        "date" : {
+                                "$date" : 1377648000000
+                        },
+                        "grade" : "A",
+                        "score" : 7
+                },
+                {
+                        "date" : {
+                                "$date" : 1364860800000
+                        },
+                        "grade" : "C",
+                        "score" : 56
+                },
+                {
+                        "date" : {
+                                "$date" : 1344988800000
+                        },
+                        "grade" : "B",
+                        "score" : 27
+                },
+                {
+                        "date" : {
+                                "$date" : 1332892800000
+                        },
+                        "grade" : "B",
+                        "score" : 27
+                }
+        ],
+        "name" : "May May Kitchen",
+        "restaurant_id" : "40358429"
+}
+{
+        "_id" : ObjectId("5c87e3f87321d51d99233fa7"),
+        "address" : {
+                "building" : "265-15",
+                "coord" : [
+                        -73.7032601,
+                        40.7386417
+                ],
+                "street" : "Hillside Avenue",
+                "zipcode" : "11004"
+        },
+        "borough" : "Queens",
+        "cuisine" : "Ice Cream, Gelato, Yogurt, Ices",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1414454400000
+                        },
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : {
+                                "$date" : 1379462400000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1348099200000
+                        },
+                        "grade" : "A",
+                        "score" : 13
+                }
+        ],
+        "name" : "Carvel Ice Cream",
+        "restaurant_id" : "40361322"
+}
+{
+        "_id" : ObjectId("5c87e4717321d51d99233fa8"),
+        "address" : {
+                "building" : "3406",
+                "coord" : [
+                        -73.94024739999999,
+                        40.7623288
+                ],
+                "street" : "10 Street",
+                "zipcode" : "11106"
+        },
+        "borough" : "Queens",
+        "cuisine" : "Delicatessen",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1395187200000
+                        },
+                        "grade" : "A",
+                        "score" : 3
+                },
+                {
+                        "date" : {
+                                "$date" : 1363132800000
+                        },
+                        "grade" : "A",
+                        "score" : 12
+                },
+                {
+                        "date" : {
+                                "$date" : 1332806400000
+                        },
+                        "grade" : "A",
+                        "score" : 8
+                },
+                {
+                        "date" : {
+                                "$date" : 1301961600000
+                        },
+                        "grade" : "A",
+                        "score" : 7
+                }
+        ],
+        "name" : "Steve Chu'S Deli & Grocery",
+        "restaurant_id" : "40361998"
+}
+{
+        "_id" : ObjectId("5c87e5627321d51d99233fa9"),
+        "address" : {
+                "building" : "60",
+                "coord" : [
+                        -74.0085357,
+                        40.70620539999999
+                ],
+                "street" : "Wall Street",
+                "zipcode" : "10005"
+        },
+        "borough" : "Manhattan",
+        "cuisine" : "Turkish",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1411689600000
+                        },
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : {
+                                "$date" : 1379462400000
+                        },
+                        "grade" : "A",
+                        "score" : 13
+                },
+                {
+                        "date" : {
+                                "$date" : 1348185600000
+                        },
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : {
+                                "$date" : 1336521600000
+                        },
+                        "grade" : "A",
+                        "score" : 11
+                }
+        ],
+        "name" : "The Country Cafe",
+        "restaurant_id" : "40362715"
+}
+{
+        "_id" : ObjectId("5c88b627c5800760cdcf6d34"),
+        "address" : {
+                "building" : "108-07",
+                "coord" : [
+                        -73.8236419,
+                        40.7261682
+                ],
+                "street" : "72 Avenue",
+                "zipcode" : "11375"
+        },
+        "borough" : "Queens",
+        "cuisine" : "Irish",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1411430400000
+                        },
+                        "grade" : "A",
+                        "score" : 12
+                },
+                {
+                        "date" : {
+                                "$date" : 1388188800000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1365552000000
+                        },
+                        "grade" : "A",
+                        "score" : 12
+                },
+                {
+                        "date" : {
+                                "$date" : 1344470400000
+                        },
+                        "grade" : "B",
+                        "score" : 17
+                },
+                {
+                        "date" : {
+                                "$date" : 1330560000000
+                        },
+                        "grade" : "B",
+                        "score" : 27
+                }
+        ],
+        "name" : "Irish Cottage",
+        "restaurant_id" : "40366549"
+}
+{
+        "_id" : ObjectId("5c88b683c5800760cdcf6d35"),
+        "address" : {
+                "building" : "697",
+                "coord" : [
+                        -74.11223799999999,
+                        40.629819
+                ],
+                "street" : "Forest Avenue",
+                "zipcode" : "10310"
+        },
+        "borough" : "Staten Island",
+        "cuisine" : "American ",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1405555200000
+                        },
+                        "grade" : "B",
+                        "score" : 25
+                },
+                {
+                        "date" : {
+                                "$date" : 1380758400000
+                        },
+                        "grade" : "B",
+                        "score" : 22
+                },
+                {
+                        "date" : {
+                                "$date" : 1360713600000
+                        },
+                        "grade" : "A",
+                        "score" : 12
+                },
+                {
+                        "date" : {
+                                "$date" : 1339372800000
+                        },
+                        "grade" : "A",
+                        "score" : 13
+                },
+                {
+                        "date" : {
+                                "$date" : 1325721600000
+                        },
+                        "grade" : "A",
+                        "score" : 13
+                }
+        ],
+        "name" : "Li Greci'S Staaten Restaurant",
+        "restaurant_id" : "40366711"
+}
+{
+        "_id" : ObjectId("5c88b70fc5800760cdcf6d36"),
+        "address" : {
+                "building" : "4340",
+                "coord" : [
+                        -73.8194559,
+                        40.8899176
+                ],
+                "street" : "Boston Road",
+                "zipcode" : "10475"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Pancakes/Waffles",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1411344000000
+                        },
+                        "grade" : "A",
+                        "score" : 11
+                },
+                {
+                        "date" : {
+                                "$date" : 1400198400000
+                        },
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : {
+                                "$date" : 1383091200000
+                        },
+                        "grade" : "A",
+                        "score" : 3
+                },
+                {
+                        "date" : {
+                                "$date" : 1370390400000
+                        },
+                        "grade" : "B",
+                        "score" : 24
+                },
+                {
+                        "date" : {
+                                "$date" : 1336953600000
+                        },
+                        "grade" : "A",
+                        "score" : 13
+                },
+                {
+                        "date" : {
+                                "$date" : 1325635200000
+                        },
+                        "grade" : "A",
+                        "score" : 7
+                }
+        ],
+        "name" : "Ihop",
+        "restaurant_id" : "40366833"
+}
+
+
+> db.rest.find({},{"restaurant_id" : 1,"name":1,"borough":1,"cuisine" :1});
+{ "_id" : ObjectId("5c87e2b27321d51d99233fa4"), "borough" : "Bronx", "cuisine" : "Bakery", "name" : "Morris Park Bake Shop", "restaurant_id" : "30075445" }
+{ "_id" : ObjectId("5c87e30d7321d51d99233fa5"), "borough" : "Brooklyn", "cuisine" : "Delicatessen", "name" : "Wilken'S Fine Food", "restaurant_id" : "40356483" }
+{ "_id" : ObjectId("5c87e3647321d51d99233fa6"), "borough" : "Brooklyn", "cuisine" : "Chinese", "name" : "May May Kitchen", "restaurant_id" : "40358429" }
+{ "_id" : ObjectId("5c87e3f87321d51d99233fa7"), "borough" : "Queens", "cuisine" : "Ice Cream, Gelato, Yogurt, Ices", "name" : "Carvel Ice Cream", "restaurant_id" : "40361322" }
+{ "_id" : ObjectId("5c87e4717321d51d99233fa8"), "borough" : "Queens", "cuisine" : "Delicatessen", "name" : "Steve Chu'S Deli & Grocery", "restaurant_id" : "40361998" }
+{ "_id" : ObjectId("5c87e5627321d51d99233fa9"), "borough" : "Manhattan", "cuisine" : "Turkish", "name" : "The Country Cafe", "restaurant_id" : "40362715" }
+{ "_id" : ObjectId("5c88b627c5800760cdcf6d34"), "borough" : "Queens", "cuisine" : "Irish", "name" : "Irish Cottage", "restaurant_id" : "40366549" }
+{ "_id" : ObjectId("5c88b683c5800760cdcf6d35"), "borough" : "Staten Island", "cuisine" : "American ", "name" : "Li Greci'S Staaten Restaurant", "restaurant_id" : "40366711" }
+{ "_id" : ObjectId("5c88b70fc5800760cdcf6d36"), "borough" : "Bronx", "cuisine" : "Pancakes/Waffles", "name" : "Ihop", "restaurant_id" : "40366833" }
+
+
+> db.rest.find({},{"restaurant_id" : 1,"name":1,"borough":1,"cuisine" :1,"_id":0});
+{ "borough" : "Bronx", "cuisine" : "Bakery", "name" : "Morris Park Bake Shop", "restaurant_id" : "30075445" }
+{ "borough" : "Brooklyn", "cuisine" : "Delicatessen", "name" : "Wilken'S Fine Food", "restaurant_id" : "40356483" }
+{ "borough" : "Brooklyn", "cuisine" : "Chinese", "name" : "May May Kitchen", "restaurant_id" : "40358429" }
+{ "borough" : "Queens", "cuisine" : "Ice Cream, Gelato, Yogurt, Ices", "name" : "Carvel Ice Cream", "restaurant_id" : "40361322" }
+{ "borough" : "Queens", "cuisine" : "Delicatessen", "name" : "Steve Chu'S Deli & Grocery", "restaurant_id" : "40361998" }
+{ "borough" : "Manhattan", "cuisine" : "Turkish", "name" : "The Country Cafe", "restaurant_id" : "40362715" }
+{ "borough" : "Queens", "cuisine" : "Irish", "name" : "Irish Cottage", "restaurant_id" : "40366549" }
+{ "borough" : "Staten Island", "cuisine" : "American ", "name" : "Li Greci'S Staaten Restaurant", "restaurant_id" : "40366711" }
+{ "borough" : "Bronx", "cuisine" : "Pancakes/Waffles", "name" : "Ihop", "restaurant_id" : "40366833" }
+
+
+> db.rest.find({},{"restaurant_id" : 1,"name":1,"borough":1,"zip-code" :1,"_id":0});
+{ "borough" : "Bronx", "name" : "Morris Park Bake Shop", "restaurant_id" : "30075445" }
+{ "borough" : "Brooklyn", "name" : "Wilken'S Fine Food", "restaurant_id" : "40356483" }
+{ "borough" : "Brooklyn", "name" : "May May Kitchen", "restaurant_id" : "40358429" }
+{ "borough" : "Queens", "name" : "Carvel Ice Cream", "restaurant_id" : "40361322" }
+{ "borough" : "Queens", "name" : "Steve Chu'S Deli & Grocery", "restaurant_id" : "40361998" }
+{ "borough" : "Manhattan", "name" : "The Country Cafe", "restaurant_id" : "40362715" }
+{ "borough" : "Queens", "name" : "Irish Cottage", "restaurant_id" : "40366549" }
+{ "borough" : "Staten Island", "name" : "Li Greci'S Staaten Restaurant", "restaurant_id" : "40366711" }
+{ "borough" : "Bronx", "name" : "Ihop", "restaurant_id" : "40366833" }
+
+
+> db.rest.find({"borough": "Bronx"});
+{ "_id" : ObjectId("5c87e2b27321d51d99233fa4"), "address" : { "building" : "1007", "coord" : [ -73.856077, 40.848447 ], "street" : "Morris Park Ave", "zipcode" : "10462" }, "borough" : "Bronx", "cuisine" : "Bakery", "grades" : [ { "date" : { "$date" : 1393804800000 }, "grade" : "A", "score" : 2 }, { "date" : { "$date" : 1378857600000 }, "grade" : "A", "score" : 6 }, { "date" : { "$date" : 1358985600000 }, "grade" : "A", "score" : 10 }, { "date" : { "$date" : 1322006400000 }, "grade" : "A", "score" : 9 }, { "date" : { "$date" : 1299715200000 }, "grade" : "B", "score" : 14 } ], "name" : "Morris Park Bake Shop", "restaurant_id" : "30075445" }
+{ "_id" : ObjectId("5c88b70fc5800760cdcf6d36"), "address" : { "building" : "4340", "coord" : [ -73.8194559, 40.8899176 ], "street" : "Boston Road", "zipcode" : "10475" }, "borough" : "Bronx", "cuisine" : "Pancakes/Waffles", "grades" : [ { "date" : { "$date" : 1411344000000 }, "grade" : "A", "score" : 11 }, { "date" : { "$date" : 1400198400000 }, "grade" : "A", "score" : 9 }, { "date" : { "$date" : 1383091200000 }, "grade" : "A", "score" : 3 }, { "date" : { "$date" : 1370390400000 }, "grade" : "B", "score" : 24 }, { "date" : { "$date" : 1336953600000 }, "grade" : "A", "score" : 13 }, { "date" : { "$date" : 1325635200000 }, "grade" : "A", "score" : 7 } ], "name" : "Ihop", "restaurant_id" : "40366833" }
