@@ -1,0 +1,71 @@
+S)
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+
+for x in mycol.find():
+  print(x)
+S)
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+for x in mycol.find({},{"restaurant_id" : 1,"name":1,"borough":1,"zip-code":1,"_id":0}):
+  print(x)
+  
+  S)
+  import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+
+for x in mycol.find():
+  print(x)
+  
+  S)
+  import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+for x in mycol.find({},{"restaurant_id" : 1,"name":1,"cuisine":1,"zip-code":1,"_id":0}):
+  print(x)
+  
+  S)
+  import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+
+myquery = { "borough": "Bronx" }
+
+mydoc = mycol.find(myquery)
+
+for x in mydoc:
+  print(x)
+  
+  S)
+  import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+                             
+for x in mycol.find({"grades" : { "$elemMatch":{"score":{"$gt" :20}}}}):
+  print(x)
+  
+  S)
+  import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+                             
+for x in mycol.find({"grades" : { "$elemMatch":{"score":{"$gt" : 80 , "$lt" :100}}}}):
+  print(x)
+  
