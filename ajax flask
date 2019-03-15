@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body>
+	<form action="https://localhost:5000/num" method="POST">
+
+	
+   <input type="text" name="fname">
+ 
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+from flask import Flask,render_template,request 
+app = Flask(__name__)
+
+@app.route('/') 
+def hello_world():
+  return render_template("tn.html")
+
+
+@app.route('/num',methods=['GET','POST']) 
+def hello():
+  name=request.form['fname']
+  print (name)
+  return name
+if __name__=='__main__':
+ app.run() 
+
