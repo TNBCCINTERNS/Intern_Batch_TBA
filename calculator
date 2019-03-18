@@ -1,0 +1,57 @@
+flask
+
+from flask import Flask, request, render_template
+
+app = Flask(__name__)
+@app.route('/')
+def so():
+    return render_template("ca.html")
+
+@app.route('/cal', methods=['GET','POST'])
+def post():
+    if request.method == 'POST':
+     first_val=int(request.form['first_val'])
+     sec_val=int(request.form['sec_val'])
+     option=request.form['options']
+     if option=="add":
+        res=first_val+sec_val
+     if option=="sub":
+        res=first_val-sec_val
+     if option=="mul":
+        res=first_val*sec_val
+     if option=="div":
+        res=first_val/sec_val
+     if option=="mod":
+        res=first_val%sec_val
+    print(res)    
+    return str(res)
+if __name__ == '__main__':
+    app.run()   
+    
+    
+    html
+    
+    <!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <form action="http://localhost:5000/cal" method="POST">
+  
+   <p>Input first number:</p>
+   <input type='text'  name="first_val">
+   <p>Input second number:</p>
+  <input type='text' name="sec_val">
+   <br>
+   ADD<input type="radio" name="options" value="add"><br>
+   SUB <input type="radio" name="options" value="sub"><br>
+   MUL<input type="radio" name="options" value="mul"><br>
+   DIV <input type="radio" name="options" value="div"><br>
+   MOD<input type="radio" name="options" value="mod"><br>
+   <input type='submit' value="Submit">
+ </form>
+
+ </body>
+</html>
+    
