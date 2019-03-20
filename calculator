@@ -23,8 +23,7 @@ def post():
         res=first_val/sec_val
      if option=="mod":
         res=first_val%sec_val
-    print(res)    
-    return str(res)
+    return render_template("ca.html", res=res)
 if __name__ == '__main__':
     app.run()   
     
@@ -62,6 +61,12 @@ if __name__ == '__main__':
    <strong>MOD</strong>   <input type="radio" name="options" value="mod"><br>
    <br>
    <input type='submit' class="btn btn-info" value="Submit">
+   <br>
+   <br>
+<h3>Result</h3>
+{% if s != None %}
+<h4>{{res}}</h4>
+{% endif %}
  </form>
  </div>
  </div>
@@ -71,4 +76,3 @@ if __name__ == '__main__':
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  </body>
 </html>
-    
