@@ -3,7 +3,7 @@ import pymongo
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["test"]
 mycol = mydb["question bank"]
-ques=[{"Question":"HTML stands for?",
+ques={"Html":[{"Question":"HTML stands for?",
 "Option":[{"A":"Hyper Text Markup Language",
 "B":"High Text Markup Language",
 "C":"Hyper Tabular Markup Language",
@@ -60,13 +60,68 @@ ques=[{"Question":"HTML stands for?",
 "B":"<h6>",
 "C":"<heading>",
 "D":"<h1>"}],
-"ans":"D"}]
+"ans":"D"}],
+"Python":[{"Question":"Which function is used to open the file for reading in python ?",
+"Option":[{"A":"fopen(filename, mode)",
+"B":"open(filename, mode)",
+"C":"openfile(filename, mode)",
+"D":"open_file(filename, mode)"}],
+"ans":"D"},{"Question":"Which function is used to open the file for reading in python ?",
+"Option":[{"A":"fopen(filename, mode)",
+"B":"open(filename, mode)",
+"C":"openfile(filename, mode)",
+"D":"open_file(filename, mode)"}],
+"ans":"D"},{"Question":"Which function is used to open the file for reading in python ?",
+"Option":[{"A":"fopen(filename, mode)",
+"B":"open(filename, mode)",
+"C":"openfile(filename, mode)",
+"D":"open_file(filename, mode)"}],
+"ans":"D"},{"Question":"Which function is used to open the file for reading in python ?",
+"Option":[{"A":"fopen(filename, mode)",
+"B":"open(filename, mode)",
+"C":"openfile(filename, mode)",
+"D":"open_file(filename, mode)"}],
+"ans":"D"},{"Question":"Which function is used to open the file for reading in python ?",
+"Option":[{"A":"fopen(filename, mode)",
+"B":"open(filename, mode)",
+"C":"openfile(filename, mode)",
+"D":"open_file(filename, mode)"}],
+"ans":"D"},{"Question":"Which function is used to open the file for reading in python ?",
+"Option":[{"A":"fopen(filename, mode)",
+"B":"open(filename, mode)",
+"C":"openfile(filename, mode)",
+"D":"open_file(filename, mode)"}],
+"ans":"D"},{"Question":"Which function is used to open the file for reading in python ?",
+"Option":[{"A":"fopen(filename, mode)",
+"B":"open(filename, mode)",
+"C":"openfile(filename, mode)",
+"D":"open_file(filename, mode)"}],
+"ans":"D"},{"Question":"Which function is used to open the file for reading in python ?",
+"Option":[{"A":"fopen(filename, mode)",
+"B":"open(filename, mode)",
+"C":"openfile(filename, mode)",
+"D":"open_file(filename, mode)"}],
+"ans":"D"},{"Question":"Which function is used to open the file for reading in python ?",
+"Option":[{"A":"fopen(filename, mode)",
+"B":"open(filename, mode)",
+"C":"openfile(filename, mode)",
+"D":"open_file(filename, mode)"}],
+"ans":"D"},{"Question":"Which function is used to open the file for reading in python ?",
+"Option":[{"A":"fopen(filename, mode)",
+"B":"open(filename, mode)",
+"C":"openfile(filename, mode)",
+"D":"open_file(filename, mode)"}],
+"ans":"D"},{"Question":"Which function is used to open the file for reading in python ?",
+"Option":[{"A":"fopen(filename, mode)",
+"B":"open(filename, mode)",
+"C":"openfile(filename, mode)",
+"D":"open_file(filename, mode)"}],
+"ans":"D"}]}
 
-x = mycol.insert_many(ques)
-qu={}
-def questions():
-    for x in mycol.find():
-		
+x = mycol.insert_one(ques)
+for x in mycol.find():
+	print(x)
+
 
     
   
