@@ -1,0 +1,73 @@
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["test"]
+mycol = mydb["question bank"]
+ques=[{"Question":"HTML stands for?",
+"Option":[{"A":"Hyper Text Markup Language",
+"B":"High Text Markup Language",
+"C":"Hyper Tabular Markup Language",
+"D":"None of these"}],
+"ans":"A"},
+{"Question":"which of the following tag is used to mark a begining of paragraph ?",
+"Option":[{"A":"<TD>",
+"B":"<br>",
+"C":"<P>",
+"D":"<TR>"}],
+"ans":"C"},
+{"Question":"From which tag descriptive list starts ?",
+"Option":[{"A":"<LL>",
+"B":"<DD>",
+"C":"<DL>",
+"D":"<DS>"}],
+"ans":"C"},
+{"Question":"Correct HTML tag for the largest heading is",
+"Option":[{"A":"<head>",
+"B":"<h6>",
+"C":"<heading>",
+"D":"<h1>"}],
+"ans":"D"},
+{"Question":"Correct HTML tag for the largest heading is",
+"Option":[{"A":"<head>",
+"B":"<h6>",
+"C":"<heading>",
+"D":"<h1>"}],
+"ans":"D"},
+{"Question":"Correct HTML tag for the largest heading is",
+"Option":[{"A":"<head>",
+"B":"<h6>",
+"C":"<heading>",
+"D":"<h1>"}],
+"ans":"D"},
+{"Question":"Correct HTML tag for the largest heading is",
+"Option":[{"A":"<head>",
+"B":"<h6>",
+"C":"<heading>",
+"D":"<h1>"}],
+"ans":"D"},
+{"Question":"Correct HTML tag for the largest heading is",
+"Option":[{"A":"<head>",
+"B":"<h6>",
+"C":"<heading>",
+"D":"<h1>"}],
+"ans":"D"},{"Question":"Correct HTML tag for the largest heading is",
+"Option":[{"A":"<head>",
+"B":"<h6>",
+"C":"<heading>",
+"D":"<h1>"}],
+"ans":"D"},{"Question":"Correct HTML tag for the largest heading is",
+"Option":[{"A":"<head>",
+"B":"<h6>",
+"C":"<heading>",
+"D":"<h1>"}],
+"ans":"D"}]
+
+x = mycol.insert_many(ques)
+qu={}
+def questions():
+    for x in mycol.find():
+		
+
+    
+  
+    
