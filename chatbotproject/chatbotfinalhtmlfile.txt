@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+    <title>flat design chatbot</title>
+    <link rel="stylesheet" type="text/css" href="chatbot2.css">
+
+    </head>
+    <body>
+            <div class="container">
+                <h3 style="background-color:red">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp____________CHATBOT UI__________</h3>
+            </div> 
+	<!-- &nbsp this one i have used for space --> 
+        <div class="chatbot">
+            <div class="chatlogs">
+                <div class="chat friend">
+                    <div class="user-photo" > <img src="r1.JPG"></div>
+                    <input type="text" class="chat-message" id="friend"  name="fval">
+                </div>
+                <div class="chat self">
+                        <div class="user-photo"><img src="r2.JPEG"></div>
+                        <input type="text" class="chat-message" id="self"  name="val1">
+                </div>
+                
+            </div>
+            <div class="chat-form">
+                <textarea id="message" placeholder="type message"></textarea>
+                <button id="chat" onclick="friend()">Send</button>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="/static/projectAjax.js?r=chatbot2.html"></script>
+        <script src="jquery.js.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+    <script>
+        function friend()
+        {
+            var a=document.getElementById("message").value;
+            document.getElementById("friend").value=a;
+        }
+    </script>    
+</html>
