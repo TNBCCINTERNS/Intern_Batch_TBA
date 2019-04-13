@@ -1,0 +1,13 @@
+ <script>
+ $('#get').click(function () {
+            console.log("in function");
+            $.ajax({
+                url: '/get?a=' + document.getElementById('question').value ,
+                success: function(data){
+                    console.log(data);
+                    senddata(data);
+                  }
+           
+            });
+        });
+    </script> 
